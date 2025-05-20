@@ -1,0 +1,5 @@
+on early-init
+    start ueventd
+
+on init
+    setprop ro.hardware zero30
