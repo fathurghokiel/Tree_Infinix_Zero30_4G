@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Enable FOD -->
+    <bool name="config_supportsInDisplayFingerprint">true</bool>
+
+    <!-- Adjust the coordinates and size based on your screen -->
+    <integer name="config_fod_position_x">540</integer>
+    <integer name="config_fod_position_y">1900</integer>
+    <integer name="config_fod_size">190</integer>
+</resources>
