@@ -1,0 +1,6 @@
+[submodule "kernel/mediatek/mt6789"]
+	path = kernel/mediatek/mt6789
+	url = https://github.com/Shirayuki39/android_kernel_common-5.10-android12.git
+[submodule "kernel/infinix/zero30"]
+	path = kernel/infinix/zero30
+	url = https://github.com/Shirayuki39/android_kernel_common-5.10-android12
