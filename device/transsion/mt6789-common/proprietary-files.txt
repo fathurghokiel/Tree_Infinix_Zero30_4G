@@ -208,6 +208,11 @@ vendor/lib/libMcClient.so
 vendor/lib64/hw/libMcGatekeeper.so
 vendor/lib64/libMcClient.so
 
+# Fingerprint
+
+vendor/lib/hw/android.hardware.biometrics.fingerprint@2.1.so
+vendor/lib64/hw/android.hardware.biometrics.fingerprint@2.1.so
+
 # GNSS
 vendor/bin/hw/android.hardware.gnss-service.mediatek
 vendor/bin/bip
