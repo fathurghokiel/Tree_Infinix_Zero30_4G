@@ -1,5 +1,2 @@
-<<<<<<< HEAD
-Device Tree for  zero 30 
-=======
+Masih tahap pembangunan
 # Device-Tree-Zero-30
->>>>>>> (Initial commit)
