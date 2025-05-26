@@ -208,10 +208,11 @@ vendor/lib/libMcClient.so
 vendor/lib64/hw/libMcGatekeeper.so
 vendor/lib64/libMcClient.so
 
-# Fingerprint
-
-vendor/lib/hw/android.hardware.biometrics.fingerprint@2.1.so
-vendor/lib64/hw/android.hardware.biometrics.fingerprint@2.1.so
+# Fingerprint HAL (Mediatek + Goodix)
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-mediatek
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-mediatek.rc
+vendor/lib64/hw/gf_fingerprint.default.so
+vendor/lib64/android.hardware.biometrics.fingerprint@2.1.so
 
 # GNSS
 vendor/bin/hw/android.hardware.gnss-service.mediatek
