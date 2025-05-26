@@ -3,3 +3,14 @@ on early-init
 
 on init
     setprop ro.hardware zero30
+
+service vendor.fps_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-mediatek
+    class late_start
+    user system
+    group system input uhid
+    writepid /dev/cpuset/system-background/tasks
+    seclabel u:r:hal_fingerprint_default:s0
+    oneshot
+
+on post-fs-data
+    mkdir /data/vendor/fpdump 0777 system system
