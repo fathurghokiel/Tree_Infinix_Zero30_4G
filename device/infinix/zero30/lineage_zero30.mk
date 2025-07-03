@@ -1,5 +1,5 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
-$(call inherit-product, device/infinix/mt6789-common/common.mk)
+$(call inherit-product, device/transsion/mt6789-common/common.mk)
 $(call inherit-product, device/infinix/zero30/device.mk)
 
 PRODUCT_NAME := lineage_zero30
