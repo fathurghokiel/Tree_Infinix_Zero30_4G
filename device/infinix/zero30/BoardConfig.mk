@@ -1,11 +1,10 @@
-# Inherit common configuration for MT6789
-include device/transsion/mt6789-common/BoardConfigCommon.mk
+TARGET_KERNEL_SOURCE := kernel/infinix/mt6789
+TARGET_KERNEL_CONFIG := zero30_4g_defconfig
+TARGET_KERNEL_ARCH := arm64
+BOARD_KERNEL_IMAGE_NAME := Image.gz
 
-# Kernel config khusus perangkat ini
-TARGET_KERNEL_CONFIG := zero30_defconfig
-
-# Jika pakai kernel prebuilt
-# TARGET_PREBUILT_KERNEL := device/infinix/zero30/prebuilt/Image.gz
+# Inherit from common
+include device/infinix/mt6789_gen2-common/BoardConfigCommon.mk
 
 # FOD support jika ada fingerprint under display
 BOARD_HAS_FOD := true
