@@ -38,4 +38,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/infinix/zero30_4g/init/init.zero30_4g.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.zero30_4g.rc
 
+# Include prebuilt boot/dtbo only (tanpa vbmeta)
+include device/infinix/zero30_4g/prebuilt/Android.mk
+
 # (Opsional) Tambahan konfigurasi audio, camera, dsb bisa ditambahkan di sini
