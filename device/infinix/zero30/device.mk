@@ -12,7 +12,7 @@ PRODUCT_MANUFACTURER := Infinix
 PRODUCT_MODEL := Zero 30 4G
 
 # Set build fingerprint (bisa diganti sesuai stock ROM kamu)
-PRODUCT_BUILD_FINGERPRINT := Infinix/X6837-GL/Infinix-X6837:13/TP1A.220624.014/240325V583:user/release-keys
+PRODUCT_BUILD_FINGERPRINT := Infinix/X6831-GL/Infinix-X6831:13/TP1A.220624.014/240325V583:user/release-keys
 
 # Product shipping API
 PRODUCT_SHIPPING_API_LEVEL := 33
