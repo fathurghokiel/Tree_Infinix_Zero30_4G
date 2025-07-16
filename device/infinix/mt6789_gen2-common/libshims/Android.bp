@@ -1,0 +1,34 @@
+//
+// Copyright (C) 2023 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library {
+    name: "libshim_camera_metadata",
+    shared_libs: ["libcamera_metadata"],
+    srcs: ["libshim_camera_metadata.cpp"],
+    vendor: true
+}
+
+cc_library_shared {
+    name: "libshim_sensors",
+    whole_static_libs: [
+        "android.hardware.sensors@1.0-convert",
+    ],
+    shared_libs: [
+        "libhardware",
+        "libhidlbase",
+        "android.hardware.sensors@1.0",
+    ],
+    vendor: true,
+}
+
+cc_library_shared {
+    name: "libutils-shim",
+    shared_libs: ["libutils-v32.transsion"],
+    compile_multilib: "64",
+    header_libs: ["libutils_headers"],
+    srcs: ["libutils/String16.cpp"],
+    vendor: true,
+}
