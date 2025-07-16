@@ -1,0 +1,2 @@
+/vendor/etc/init/init.mt6789.rc       u:object_r:vendor_configs_file:s0
+/vendor/etc/init/init.zero30_4g.rc    u:object_r:vendor_configs_file:s0
